@@ -4,4 +4,4 @@
     - ✨ Projects for classes remain in private repositories.
 
 [![GitHub Streak](https://streak-stats.demolab.com?user=jjjhenriksen)](https://git.io/streak-stats)
-[![trophy](https://github-profile-trophy.vercel.app/?username=jjjhenriksen)](https://github.com/ryo-ma/github-profile-trophy)
+[![trophy](https://github-profile-trophy.vercel.app/?username=jjjhenriksen&theme=algolia)](https://github.com/ryo-ma/github-profile-trophy)
