@@ -45,7 +45,7 @@ The plugin uses native overlays on macOS and Windows while enforcing a strict pr
 
 ## 🦞 Open-source contributions
 
-My community work with OpenClaw is separate from my code contributions. As an independent open-source contributor, I focus on developer experience, safer content workflows, and interfaces that adapt to how people actually work.
+As an independent open-source contributor, I focus on developer experience, safer content workflows, and interfaces that adapt to how people actually work.
 
 ### [ClickClack](https://github.com/openclaw/clickclack)
 
