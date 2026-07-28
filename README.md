@@ -23,7 +23,7 @@ Readers can select a sentence, equation, or Lean declaration and request an expl
 
 **Built with:** TypeScript, Next.js, Lean 4, PDF.js, Playwright, and the OpenAI Responses API
 
-> 🚧 Public release coming soon.
+> 🚧 Tested release candidate; preparing the first public release.
 
 ### 🚀 [Artemis Lost](https://github.com/jjjhenriksen/Artemis-Lost)
 
@@ -42,6 +42,32 @@ A cross-platform OpenClaw plugin that represents local and remote agent activity
 The plugin uses native overlays on macOS and Windows while enforcing a strict privacy boundary: prompts, credentials, tool arguments, model output, and internal errors never cross the display bridge.
 
 **Built with:** TypeScript, Swift, C#, WebView2, and OpenClaw
+
+## 🧪 Next projects
+
+These projects extend the same interests into scientific computing, formalization tooling, and developer experience.
+
+### ⚛️ [2D Hartree–Fock Lab](https://github.com/jjjhenriksen/hf2d-lab)
+
+A serverless scientific workbench for restricted and unrestricted Hartree–Fock Born–Oppenheimer molecular dynamics in a model two-dimensional universe. It pairs a float64 Rust/WASM reference path with a TypeScript diagnostic implementation and an optional WebGPU backend, while making convergence, precision, and rejected unconverged steps visible in the interface.
+
+**Built with:** TypeScript, Rust, WebAssembly, WebGPU, FFT convolution, and browser workers
+
+### 🦀 [Lean 4 Codex Skills](https://github.com/jjjhenriksen/lean4-codex-skills)
+
+A focused skill pack for LLM-assisted theorem proving and autoformalization: mentoring, mathematical exploration, declaration drafting, proof repair, review, build-checked checkpoints, and toolchain diagnosis.
+
+**Built with:** Lean 4, Codex skills, Mathlib workflows, and proof-state-aware agent instructions
+
+### 🧭 [Codex Native Selector](https://github.com/jjjhenriksen/codex-native-selector)
+
+A Windows customization that turns Codex Desktop’s compact model selector into a clearer native interface with model-family tabs, reasoning controls, dynamic catalog discovery, Fast mode, and a portable-copy workflow that leaves the official installation untouched.
+
+**Built with:** JavaScript, Electron ASAR tooling, PowerShell, Windows, and targeted bundle patching
+
+### 🧩 [ClawHub Skill Pack](https://github.com/jjjhenriksen/agent-skills)
+
+Published OpenClaw skills for reflection weaving, ambient signal capture, strategic reading, evidence-first review, and citation provenance. The pack treats agent behavior as a design surface: each skill narrows the task, preserves source boundaries, and makes quality checks explicit.
 
 ## 🦞 Open-source contributions
 
@@ -84,6 +110,8 @@ My merged contributions have:
 ## 🌱 Currently
 
 - Building Interactive Proof toward its first public release
+- Developing 2D Hartree–Fock Lab as a browser-based numerical methods workbench
+- Exploring LLM-assisted formalization through Lean 4 Codex Skills
 - Studying Data Science at Chapman University
 - Participating in the Break Through Tech AI program
 - Building and contributing to open-source AI tooling
