@@ -81,9 +81,23 @@ My merged contributions have:
 - Improved navigation and accessibility with [independently collapsible sidebar sections](https://github.com/openclaw/clickclack/pull/50) and [pointer, keyboard, and touch controls for channel ordering](https://github.com/openclaw/clickclack/pull/51).
 - Let people shape the conversation layout around their preferences with [independent alignment controls for their own and others’ messages](https://github.com/openclaw/clickclack/pull/60).
 
+More recently, I merged [matched search context](https://github.com/openclaw/clickclack/pull/81), [search results in a sidebar](https://github.com/openclaw/clickclack/pull/83), [responsive Markdown tables](https://github.com/openclaw/clickclack/pull/93), [message reactions](https://github.com/openclaw/clickclack/pull/98), and [message editing](https://github.com/openclaw/clickclack/pull/99).
+
 ### [OpenClaw](https://github.com/openclaw/openclaw)
 
 - Restored reliable [end-to-end media delivery for ClickClack](https://github.com/openclaw/openclaw/pull/105775), made retries safe against duplicate messages, and removed a hard-coded model limit so replies follow the selected runtime and model budget.
+
+### [Interactive Proof](https://github.com/jjjhenriksen/interactive-proof)
+
+Recent merged work includes [streamed proof explanations](https://github.com/jjjhenriksen/interactive-proof/pull/1), [CI and browser smoke coverage](https://github.com/jjjhenriksen/interactive-proof/pull/2), [release verification and evidence disclosure](https://github.com/jjjhenriksen/interactive-proof/pull/5), [evaluation and security methodology](https://github.com/jjjhenriksen/interactive-proof/pull/6), [proof-package authoring tools](https://github.com/jjjhenriksen/interactive-proof/pull/14), [a navigable proof map](https://github.com/jjjhenriksen/interactive-proof/pull/15), and [ephemeral paper and Lean uploads](https://github.com/jjjhenriksen/interactive-proof/pull/18).
+
+### [2D Hartree–Fock Lab](https://github.com/jjjhenriksen/hf2d-lab)
+
+I built the numerical workbench through a sequence of focused changes, including [WebGPU acceleration](https://github.com/jjjhenriksen/hf2d-lab/pull/9), [occupied-orbital field views](https://github.com/jjjhenriksen/hf2d-lab/pull/11), [lowest-energy iterate retention after non-convergence](https://github.com/jjjhenriksen/hf2d-lab/pull/16), [explicit SCF actions](https://github.com/jjjhenriksen/hf2d-lab/pull/17), [clearer grid and domain controls](https://github.com/jjjhenriksen/hf2d-lab/pull/18), and [selectable SCF acceleration](https://github.com/jjjhenriksen/hf2d-lab/pull/19).
+
+### [Codex Native Selector](https://github.com/Mirochill/codex-native-selector)
+
+- Added [macOS Codex app support](https://github.com/Mirochill/codex-native-selector/pull/3) while preserving the project’s targeted patching and portable-copy workflow.
 
 ## 🔬 Research interests
 
