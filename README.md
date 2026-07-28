@@ -10,7 +10,7 @@ My work sits at the intersection of human–AI interaction, HCI, accessibility, 
 
 The common thread across these projects is building trustworthy AI systems and accessible interfaces that help people work with complex technical material and workflows.
 
-### 📐 Interactive Proof
+### 📐 [Interactive Proof](https://github.com/jjjhenriksen/interactive-proof)
 
 An educational reading companion connecting mathematical papers, Lean formalizations, and focused AI explanations.
 
@@ -86,18 +86,6 @@ More recently, I merged [matched search context](https://github.com/openclaw/cli
 ### [OpenClaw](https://github.com/openclaw/openclaw)
 
 - Restored reliable [end-to-end media delivery for ClickClack](https://github.com/openclaw/openclaw/pull/105775), made retries safe against duplicate messages, and removed a hard-coded model limit so replies follow the selected runtime and model budget.
-
-### [Interactive Proof](https://github.com/jjjhenriksen/interactive-proof)
-
-Recent merged work includes [streamed proof explanations](https://github.com/jjjhenriksen/interactive-proof/pull/1), [CI and browser smoke coverage](https://github.com/jjjhenriksen/interactive-proof/pull/2), [release verification and evidence disclosure](https://github.com/jjjhenriksen/interactive-proof/pull/5), [evaluation and security methodology](https://github.com/jjjhenriksen/interactive-proof/pull/6), [proof-package authoring tools](https://github.com/jjjhenriksen/interactive-proof/pull/14), [a navigable proof map](https://github.com/jjjhenriksen/interactive-proof/pull/15), and [ephemeral paper and Lean uploads](https://github.com/jjjhenriksen/interactive-proof/pull/18).
-
-### [2D Hartree–Fock Lab](https://github.com/jjjhenriksen/hf2d-lab)
-
-I built the numerical workbench through a sequence of focused changes, including [WebGPU acceleration](https://github.com/jjjhenriksen/hf2d-lab/pull/9), [occupied-orbital field views](https://github.com/jjjhenriksen/hf2d-lab/pull/11), [lowest-energy iterate retention after non-convergence](https://github.com/jjjhenriksen/hf2d-lab/pull/16), [explicit SCF actions](https://github.com/jjjhenriksen/hf2d-lab/pull/17), [clearer grid and domain controls](https://github.com/jjjhenriksen/hf2d-lab/pull/18), and [selectable SCF acceleration](https://github.com/jjjhenriksen/hf2d-lab/pull/19).
-
-### [Codex Native Selector](https://github.com/Mirochill/codex-native-selector)
-
-- Added [macOS Codex app support](https://github.com/Mirochill/codex-native-selector/pull/3) while preserving the project’s targeted patching and portable-copy workflow.
 
 ## 🔬 Research interests
 
