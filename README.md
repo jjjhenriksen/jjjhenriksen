@@ -75,15 +75,14 @@ As an independent open-source contributor, I focus on developer experience, safe
 
 ### [ClickClack](https://github.com/openclaw/clickclack)
 
-My merged contributions have:
-
 - Made uploaded work usable without leaving the conversation through [safe previews for code, documents, PDFs, and HTML](https://github.com/openclaw/clickclack/pull/49), followed by [bounded spreadsheet and slide-deck previews](https://github.com/openclaw/clickclack/pull/55).
 - Improved navigation and accessibility with [independently collapsible sidebar sections](https://github.com/openclaw/clickclack/pull/50) and [pointer, keyboard, and touch controls for channel ordering](https://github.com/openclaw/clickclack/pull/51).
 - Let people shape the conversation layout around their preferences with [independent alignment controls for their own and others’ messages](https://github.com/openclaw/clickclack/pull/60).
-
-More recently, I merged [matched search context](https://github.com/openclaw/clickclack/pull/81), [search results in a sidebar](https://github.com/openclaw/clickclack/pull/83), [responsive Markdown tables](https://github.com/openclaw/clickclack/pull/93), [message reactions](https://github.com/openclaw/clickclack/pull/98), and [message editing](https://github.com/openclaw/clickclack/pull/99).
-
-Most recently, I contributed [channel mention notifications](https://github.com/openclaw/clickclack/pull/116), [pinned messages](https://github.com/openclaw/clickclack/pull/117), [right-aligned Markdown rendering](https://github.com/openclaw/clickclack/pull/135), [resolved mention highlighting](https://github.com/openclaw/clickclack/pull/137), and [named responding-agent status across channels and threads](https://github.com/openclaw/clickclack/pull/138).
+- Added [matched search context](https://github.com/openclaw/clickclack/pull/81) and [search results in a sidebar](https://github.com/openclaw/clickclack/pull/83).
+- Added [responsive Markdown tables](https://github.com/openclaw/clickclack/pull/93), [message reactions](https://github.com/openclaw/clickclack/pull/98), and [message editing](https://github.com/openclaw/clickclack/pull/99).
+- Added [channel mention notifications](https://github.com/openclaw/clickclack/pull/116) and [pinned messages](https://github.com/openclaw/clickclack/pull/117).
+- Fixed [right-aligned Markdown rendering](https://github.com/openclaw/clickclack/pull/135).
+- Added [resolved mention highlighting](https://github.com/openclaw/clickclack/pull/137) and [named responding-agent status across channels and threads](https://github.com/openclaw/clickclack/pull/138).
 
 ### [OpenClaw](https://github.com/openclaw/openclaw)
 
