@@ -83,9 +83,18 @@ My merged contributions have:
 
 More recently, I merged [matched search context](https://github.com/openclaw/clickclack/pull/81), [search results in a sidebar](https://github.com/openclaw/clickclack/pull/83), [responsive Markdown tables](https://github.com/openclaw/clickclack/pull/93), [message reactions](https://github.com/openclaw/clickclack/pull/98), and [message editing](https://github.com/openclaw/clickclack/pull/99).
 
+Most recently, I contributed [channel mention notifications](https://github.com/openclaw/clickclack/pull/116), [pinned messages](https://github.com/openclaw/clickclack/pull/117), [right-aligned Markdown rendering](https://github.com/openclaw/clickclack/pull/135), [resolved mention highlighting](https://github.com/openclaw/clickclack/pull/137), and [named responding-agent status across channels and threads](https://github.com/openclaw/clickclack/pull/138).
+
 ### [OpenClaw](https://github.com/openclaw/openclaw)
 
 - Restored reliable [end-to-end media delivery for ClickClack](https://github.com/openclaw/openclaw/pull/105775), made retries safe against duplicate messages, and removed a hard-coded model limit so replies follow the selected runtime and model budget.
+- Added opt-in [ClickClack group-reply mention gating](https://github.com/openclaw/openclaw/pull/115484), preserving direct-message behavior while preventing ordinary group traffic from activating every account.
+- Preserved original [cron timeout and cancellation reasons](https://github.com/openclaw/openclaw/pull/116566) through prompt handoff and finalization so operators can diagnose failed runs accurately.
+- Fixed [restart recovery for deleted or unconfigured agent stores](https://github.com/openclaw/openclaw/pull/118023) while keeping configured custom stores eligible.
+
+### [Lossless Claw](https://github.com/Martian-Engineering/lossless-claw)
+
+- Fixed [delegated expansion reply collection](https://github.com/Martian-Engineering/lossless-claw/pull/1061) for current OpenClaw beta releases by using the supported session-message API and adding regression coverage.
 
 ## 🔬 Research interests
 
