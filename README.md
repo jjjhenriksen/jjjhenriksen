@@ -2,13 +2,13 @@
 
 **Data Science ’28 @ Chapman University · Break Through Tech AI Fellow · Community Staff @ [OpenClaw](https://github.com/openclaw)**
 
-I keep coming back to the same question: how can we make complex AI systems easier for people to understand, trust, and use?
+I build human-centered AI products and developer tools that make complex systems easier to understand, direct, and trust.
 
-My work sits at the intersection of human–AI interaction, HCI, accessibility, and developer experience. I build tools that make evidence, system state, and privacy boundaries visible instead of asking people to treat AI as a black box.
+My focus is AI product engineering at the intersection of HCI, accessibility, developer experience, and reliable agent systems. I care about making evidence, system state, privacy boundaries, and failure behavior visible to the people using AI.
 
 ## ✨ Featured work
 
-The common thread across these projects is building trustworthy AI systems and accessible interfaces that help people work with complex technical material and workflows.
+These projects show how I turn that focus into learning tools, AI applications, and agent interfaces.
 
 ### 📐 [Interactive Proof](https://github.com/jjjhenriksen/interactive-proof)
 
@@ -43,31 +43,14 @@ The plugin uses native overlays on macOS and Windows while enforcing a strict pr
 
 **Built with:** TypeScript, Swift, C#, WebView2, and OpenClaw
 
-## 🧪 Next projects
+## 🧩 Agent skills and supporting tools
 
-These projects extend the same interests into scientific computing, formalization tooling, and developer experience.
+I make reusable skills and developer tools for agents, especially where technical reasoning, source boundaries, and human control matter.
 
-### ⚛️ [2D Hartree–Fock Lab](https://github.com/jjjhenriksen/hf2d-lab)
-
-A serverless scientific workbench for restricted and unrestricted Hartree–Fock Born–Oppenheimer molecular dynamics in a model two-dimensional universe. It pairs a float64 Rust/WASM reference path with a TypeScript diagnostic implementation and an optional WebGPU backend, while making convergence, precision, and rejected unconverged steps visible in the interface.
-
-**Built with:** TypeScript, Rust, WebAssembly, WebGPU, FFT convolution, and browser workers
-
-### 🦀 [Lean 4 Codex Skills](https://github.com/jjjhenriksen/lean4-codex-skills)
-
-A focused skill pack for LLM-assisted theorem proving and autoformalization: mentoring, mathematical exploration, declaration drafting, proof repair, review, build-checked checkpoints, and toolchain diagnosis.
-
-**Built with:** Lean 4, Codex skills, Mathlib workflows, and proof-state-aware agent instructions
-
-### 🧭 [Codex Native Selector](https://github.com/jjjhenriksen/codex-native-selector)
-
-A Windows customization that turns Codex Desktop’s compact model selector into a clearer native interface with model-family tabs, reasoning controls, dynamic catalog discovery, Fast mode, and a portable-copy workflow that leaves the official installation untouched.
-
-**Built with:** JavaScript, Electron ASAR tooling, PowerShell, Windows, and targeted bundle patching
-
-### 🧩 [ClawHub Skill Pack](https://github.com/jjjhenriksen/agent-skills)
-
-Published OpenClaw skills for reflection weaving, ambient signal capture, strategic reading, evidence-first review, and citation provenance. The pack treats agent behavior as a design surface: each skill narrows the task, preserves source boundaries, and makes quality checks explicit.
+- **[Lean 4 Codex Skills](https://github.com/jjjhenriksen/lean4-codex-skills):** Agent skills for theorem proving and autoformalization, including mentoring, declaration drafting, proof repair, review, build-checked checkpoints, and toolchain diagnosis.
+- **[ClawHub Skill Pack](https://github.com/jjjhenriksen/agent-skills):** Published OpenClaw skills for reflection weaving, strategic reading, evidence-first review, and citation provenance.
+- **[2D Hartree–Fock Lab](https://github.com/jjjhenriksen/hf2d-lab):** A browser-based numerical methods workbench that makes convergence, precision, and rejected unconverged steps visible.
+- **[Codex Native Selector](https://github.com/jjjhenriksen/codex-native-selector):** A Windows customization that gives Codex Desktop a clearer native model-selection interface and portable-copy workflow.
 
 ## 🦞 Open-source contributions
 
@@ -95,33 +78,18 @@ As an independent open-source contributor, I focus on developer experience, safe
 
 - Fixed [delegated expansion reply collection](https://github.com/Martian-Engineering/lossless-claw/pull/1061) for current OpenClaw beta releases by using the supported session-message API and adding regression coverage.
 
-## 🔬 Research interests
+## 🔬 Focus areas and tools
 
-- **Human–AI interaction and HCI:** How interface design shapes people’s ability to understand, direct, and critically evaluate AI systems
-- **Trustworthy AI and evidence:** Provenance, verification, evaluation, and clear boundaries between source material and model-generated output
-- **Formalization and mechanized reasoning:** Translating informal mathematical arguments into precise, verifiable formal representations and studying the relationship between prose and proof
-- **AI for mathematical and technical learning:** Connecting informal explanation, formal verification, and primary-source evidence
-
-## 🛠️ Engineering interests
-
-- **Accessible interfaces for technical work:** Reducing cognitive and interaction barriers in tools for complex documents, systems, and workflows
-- **Developer experience for agent systems:** Making agent behavior more observable, controllable, and useful within real workflows
-- **Reliable AI application architecture:** Designing explicit state, bounded data flows, privacy boundaries, and failure behavior into AI-powered products
-
-## 🧰 Tools and technologies
-
-- **Human-centered product engineering:** TypeScript, React, Next.js, accessible interaction design, and Playwright
-- **AI systems and orchestration:** OpenAI Responses API, Anthropic Messages API, structured state, and agent workflows
-- **Backend and persistence:** Node.js, Express, PostgreSQL, and bounded API contracts
-- **Native and cross-platform interfaces:** Swift, C#/.NET, and WebView2
-- **Formal methods and technical documents:** Lean 4, PDF.js, and evidence-aware interface design
-- **Engineering practice:** automated testing, CI, privacy and security boundaries, Git, and GitHub
+- **Human-centered AI:** HCI, accessibility, evidence-aware interfaces, and AI for technical learning
+- **Agent systems:** Observable workflows, bounded data flows, privacy boundaries, and failure behavior
+- **Formal and scientific computing:** Lean 4, mechanized reasoning, numerical methods, and browser-based research tools
+- **Stack:** TypeScript, React, Next.js, Node.js, PostgreSQL, Playwright, Swift, C#/.NET, Rust/WASM, OpenAI and Anthropic APIs
 
 ## 🌱 Currently
 
 - Building Interactive Proof toward its first public release
 - Developing 2D Hartree–Fock Lab as a browser-based numerical methods workbench
-- Exploring LLM-assisted formalization through Lean 4 Codex Skills
+- Creating reusable skills and tools for agent workflows
 - Studying Data Science at Chapman University
 - Participating in the Break Through Tech AI program
 - Building and contributing to open-source AI tooling
