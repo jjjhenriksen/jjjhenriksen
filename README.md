@@ -54,22 +54,28 @@ A full-stack science-fiction mission simulator where human players and AI-contro
 
 ## 🦞 Open-source contributions
 
-As an independent open-source contributor, I focus on developer experience, safer content workflows, and interfaces that adapt to how people actually work.
+As an independent open-source contributor, I focus on developer experience, safer content workflows, reliable agent systems, and interfaces that adapt to how people actually work.
+
+### [OpenClaw](https://github.com/openclaw/openclaw)
+
+Recent merged work includes:
+
+- [Skill Workshop review-index repair](https://github.com/openclaw/openclaw/pull/142522), keeping durable review state consistent after updates
+- [Agent automation editing from Settings](https://github.com/openclaw/openclaw/pull/139782)
+- [Primary-user identity in the multi-agent profile hero](https://github.com/openclaw/openclaw/pull/136736)
+- [Native compaction serialization](https://github.com/openclaw/openclaw/pull/135441) and [restored subagent requester-settle recovery](https://github.com/openclaw/openclaw/pull/133057)
+- [Embedding-only managed-server support](https://github.com/openclaw/openclaw/pull/125383), [explicit system-agent configuration](https://github.com/openclaw/openclaw/pull/125377), and [inherited skill-allowlist visibility](https://github.com/openclaw/openclaw/pull/124429)
+- [Queued-message editing](https://github.com/openclaw/openclaw/pull/124298), [catalog-timeout classification](https://github.com/openclaw/openclaw/pull/124288), and [agent-owned multi-agent CLI operations](https://github.com/openclaw/openclaw/pull/123871)
+- [Bot-to-bot inbound dispatch](https://github.com/openclaw/openclaw/pull/119278), [restart recovery for deleted or unconfigured agent stores](https://github.com/openclaw/openclaw/pull/118023), [native ClickClack progress](https://github.com/openclaw/openclaw/pull/116683), [cron-reason preservation](https://github.com/openclaw/openclaw/pull/116566), [mention gating](https://github.com/openclaw/openclaw/pull/115484), and [ClickClack media delivery](https://github.com/openclaw/openclaw/pull/105775)
+
+Current open work includes [release-safe compaction cleanup](https://github.com/openclaw/openclaw/pull/144511), [LaTeX rendering in Control UI Markdown](https://github.com/openclaw/openclaw/pull/144324), [dashboard child-session pinning](https://github.com/openclaw/openclaw/pull/143719), [deleted-archive retention](https://github.com/openclaw/openclaw/pull/140793), [native plugin stylesheet loading on macOS](https://github.com/openclaw/openclaw/pull/139735), [saved gateway-account switching](https://github.com/openclaw/openclaw/pull/136687), and [automation grouping and tags](https://github.com/openclaw/openclaw/pull/134434).
 
 ### [ClickClack](https://github.com/openclaw/clickclack)
 
 - Made uploaded work usable without leaving the conversation through [safe previews for code, documents, PDFs, and HTML](https://github.com/openclaw/clickclack/pull/49), followed by [bounded spreadsheet and slide-deck previews](https://github.com/openclaw/clickclack/pull/55).
-- Improved navigation and accessibility with [independently collapsible sidebar sections](https://github.com/openclaw/clickclack/pull/50) and [pointer, keyboard, and touch controls for channel ordering](https://github.com/openclaw/clickclack/pull/51).
-- Let people shape the conversation layout around their preferences with [independent message alignment controls](https://github.com/openclaw/clickclack/pull/60).
-- Added [matched search context](https://github.com/openclaw/clickclack/pull/81), [search results in a sidebar](https://github.com/openclaw/clickclack/pull/83), [responsive Markdown tables](https://github.com/openclaw/clickclack/pull/93), [message reactions](https://github.com/openclaw/clickclack/pull/98), and [message editing](https://github.com/openclaw/clickclack/pull/99).
-- Added [channel mention notifications](https://github.com/openclaw/clickclack/pull/116), [pinned messages](https://github.com/openclaw/clickclack/pull/117), [resolved mention highlighting](https://github.com/openclaw/clickclack/pull/137), and [named responding-agent status across channels and threads](https://github.com/openclaw/clickclack/pull/138).
-
-### [OpenClaw](https://github.com/openclaw/openclaw)
-
-- Restored reliable [end-to-end media delivery for ClickClack](https://github.com/openclaw/openclaw/pull/105775), made retries safe against duplicate messages, and removed a hard-coded model limit.
-- Added opt-in [ClickClack group-reply mention gating](https://github.com/openclaw/openclaw/pull/115484).
-- Preserved original [cron timeout and cancellation reasons](https://github.com/openclaw/openclaw/pull/116566) through prompt handoff and finalization.
-- Fixed [restart recovery for deleted or unconfigured agent stores](https://github.com/openclaw/openclaw/pull/118023) while keeping configured custom stores eligible.
+- Improved navigation and accessibility with [collapsible sidebar sections](https://github.com/openclaw/clickclack/pull/50), [draggable channel ordering](https://github.com/openclaw/clickclack/pull/51), and [independent message alignment controls](https://github.com/openclaw/clickclack/pull/60).
+- Added [matched search context](https://github.com/openclaw/clickclack/pull/81), [sidebar search results](https://github.com/openclaw/clickclack/pull/83), [responsive Markdown tables](https://github.com/openclaw/clickclack/pull/93), [message reactions](https://github.com/openclaw/clickclack/pull/98), and [message editing](https://github.com/openclaw/clickclack/pull/99).
+- Added [channel mention notifications](https://github.com/openclaw/clickclack/pull/116), [pinned messages](https://github.com/openclaw/clickclack/pull/117), [resolved mention highlighting](https://github.com/openclaw/clickclack/pull/137), and [named responding-agent status](https://github.com/openclaw/clickclack/pull/138).
 
 ### [Lossless Claw](https://github.com/Martian-Engineering/lossless-claw)
 
