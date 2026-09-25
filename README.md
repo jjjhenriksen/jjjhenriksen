@@ -68,7 +68,25 @@ Recent merged work includes:
 - [Queued-message editing](https://github.com/openclaw/openclaw/pull/124298), [catalog-timeout classification](https://github.com/openclaw/openclaw/pull/124288), and [agent-owned multi-agent CLI operations](https://github.com/openclaw/openclaw/pull/123871)
 - [Bot-to-bot inbound dispatch](https://github.com/openclaw/openclaw/pull/119278), [restart recovery for deleted or unconfigured agent stores](https://github.com/openclaw/openclaw/pull/118023), [native ClickClack progress](https://github.com/openclaw/openclaw/pull/116683), [cron-reason preservation](https://github.com/openclaw/openclaw/pull/116566), [mention gating](https://github.com/openclaw/openclaw/pull/115484), and [ClickClack media delivery](https://github.com/openclaw/openclaw/pull/105775)
 
-Current open work includes [release-safe compaction cleanup](https://github.com/openclaw/openclaw/pull/144511), [LaTeX rendering in Control UI Markdown](https://github.com/openclaw/openclaw/pull/144324), [dashboard child-session pinning](https://github.com/openclaw/openclaw/pull/143719), [deleted-archive retention](https://github.com/openclaw/openclaw/pull/140793), [native plugin stylesheet loading on macOS](https://github.com/openclaw/openclaw/pull/139735), [saved gateway-account switching](https://github.com/openclaw/openclaw/pull/136687), and [automation grouping and tags](https://github.com/openclaw/openclaw/pull/134434).
+### Open pull requests · checked September 25, 2026
+
+**OpenClaw**
+
+- [Skip redundant chat snapshot sanitization](https://github.com/openclaw/openclaw/pull/153214)
+- [Prevent stale native dashboard builds](https://github.com/openclaw/openclaw/pull/148435)
+- [Add bounded PDF previews to chat attachments](https://github.com/openclaw/openclaw/pull/148399)
+- [Release compaction writer before continuation](https://github.com/openclaw/openclaw/pull/144511)
+- [Render LaTeX in Control UI Markdown](https://github.com/openclaw/openclaw/pull/144324)
+- [Allow dashboard child sessions to be pinned](https://github.com/openclaw/openclaw/pull/143719)
+- [Split deleted-archive retention](https://github.com/openclaw/openclaw/pull/140793)
+- [Add saved gateway-account switching](https://github.com/openclaw/openclaw/pull/136687)
+- [Add grouping and tags to automations](https://github.com/openclaw/openclaw/pull/134434)
+
+**Other projects**
+
+- [RFC 0027: Simplified Technical English for OpenClaw documentation](https://github.com/openclaw/rfcs/pull/53) · draft
+- [Restore npm ci reproducibility](https://github.com/JoshuaDowdCS/chapman-ieee/pull/2) · draft
+- [Improve keyboard accessibility](https://github.com/JoshuaDowdCS/chapman-ieee/pull/1) · draft
 
 ### [ClickClack](https://github.com/openclaw/clickclack)
 
