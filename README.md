@@ -88,6 +88,8 @@ Selected merged work includes:
 - [Restore npm ci reproducibility](https://github.com/JoshuaDowdCS/chapman-ieee/pull/2) · draft
 - [Improve keyboard accessibility](https://github.com/JoshuaDowdCS/chapman-ieee/pull/1) · draft
 
+[Browse all open pull requests](https://github.com/pulls?q=is%3Apr%20author%3Ajjjhenriksen%20is%3Aopen).
+
 ### [ClickClack](https://github.com/openclaw/clickclack)
 
 - Made uploaded work usable without leaving the conversation through [safe previews for code, documents, PDFs, and HTML](https://github.com/openclaw/clickclack/pull/49), followed by [bounded spreadsheet and slide-deck previews](https://github.com/openclaw/clickclack/pull/55).
