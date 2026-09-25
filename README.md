@@ -58,7 +58,7 @@ As an independent open-source contributor, I focus on developer experience, safe
 
 ### [OpenClaw](https://github.com/openclaw/openclaw)
 
-Recent merged work includes:
+Selected merged work includes:
 
 - [Skill Workshop review-index repair](https://github.com/openclaw/openclaw/pull/142522), keeping durable review state consistent after updates
 - [Agent automation editing from Settings](https://github.com/openclaw/openclaw/pull/139782)
@@ -98,6 +98,15 @@ Recent merged work includes:
 ### [Lossless Claw](https://github.com/Martian-Engineering/lossless-claw)
 
 - Fixed [delegated expansion reply collection](https://github.com/Martian-Engineering/lossless-claw/pull/1061) for current OpenClaw beta releases using the supported session-message API, with regression coverage.
+
+### Recent merged PR highlights · checked September 25, 2026
+
+- **OpenClaw:** [Coalesce progress-card refreshes](https://github.com/openclaw/openclaw/pull/153213), [guard generated-context sanitization](https://github.com/openclaw/openclaw/pull/153211), and [prevent Control UI hangs on malformed progress content](https://github.com/openclaw/openclaw/pull/147528).
+- **OpenClaw Pet:** [Show source health in pet status](https://github.com/jjjhenriksen/openclaw-pet/pull/25), [improve overlay accessibility](https://github.com/jjjhenriksen/openclaw-pet/pull/24), and [port the canonical Lobsterdex renderer](https://github.com/jjjhenriksen/openclaw-pet/pull/20).
+- **Hollow Square:** [Defer the notation renderer and story artwork](https://github.com/jjjhenriksen/hollow-square/pull/8) and [keep narrow screens readable](https://github.com/jjjhenriksen/hollow-square/pull/7).
+- **2D Hartree–Fock Lab:** [Improve SCF preconditioning and orbital eigenstates](https://github.com/jjjhenriksen/hf2d-lab/pull/43).
+
+[Browse all merged pull requests](https://github.com/pulls?q=is%3Apr%20author%3Ajjjhenriksen%20is%3Amerged).
 
 ## 🔬 Focus areas and tools
 
