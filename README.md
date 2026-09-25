@@ -117,15 +117,6 @@ Selected merged work includes:
 - **Formal and scientific computing:** Lean 4, mechanized reasoning, numerical methods, and browser-based research tools
 - **Stack:** TypeScript, React, Next.js, Node.js, PostgreSQL, Playwright, Swift, C#/.NET, Python, Rust/WASM, OpenAI and Anthropic APIs
 
-## 🌱 Currently
-
-- Extending the Shape-Note Atlas and its source-grounded review workflow
-- Developing OpenClaw Pet as a privacy-preserving activity interface
-- Building 2D Hartree–Fock Lab as a browser-based numerical methods workbench
-- Creating reusable skills for agent workflows, theorem proving, and evidence-first knowledge work
-- Studying Data Science at Chapman University and participating in Break Through Tech AI
-- Building and contributing to open-source AI tooling
-
 ## 📫 Connect with me
 
 - [Website](https://jacquelinehenriksen.com/)
