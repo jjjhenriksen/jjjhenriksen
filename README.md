@@ -58,7 +58,7 @@ As an independent open-source contributor, I focus on developer experience, safe
 
 ### [OpenClaw](https://github.com/openclaw/openclaw)
 
-Recent merged work includes:
+Selected merged work includes:
 
 - [Skill Workshop review-index repair](https://github.com/openclaw/openclaw/pull/142522), keeping durable review state consistent after updates
 - [Agent automation editing from Settings](https://github.com/openclaw/openclaw/pull/139782)
@@ -68,7 +68,27 @@ Recent merged work includes:
 - [Queued-message editing](https://github.com/openclaw/openclaw/pull/124298), [catalog-timeout classification](https://github.com/openclaw/openclaw/pull/124288), and [agent-owned multi-agent CLI operations](https://github.com/openclaw/openclaw/pull/123871)
 - [Bot-to-bot inbound dispatch](https://github.com/openclaw/openclaw/pull/119278), [restart recovery for deleted or unconfigured agent stores](https://github.com/openclaw/openclaw/pull/118023), [native ClickClack progress](https://github.com/openclaw/openclaw/pull/116683), [cron-reason preservation](https://github.com/openclaw/openclaw/pull/116566), [mention gating](https://github.com/openclaw/openclaw/pull/115484), and [ClickClack media delivery](https://github.com/openclaw/openclaw/pull/105775)
 
-Current open work includes [release-safe compaction cleanup](https://github.com/openclaw/openclaw/pull/144511), [LaTeX rendering in Control UI Markdown](https://github.com/openclaw/openclaw/pull/144324), [dashboard child-session pinning](https://github.com/openclaw/openclaw/pull/143719), [deleted-archive retention](https://github.com/openclaw/openclaw/pull/140793), [native plugin stylesheet loading on macOS](https://github.com/openclaw/openclaw/pull/139735), [saved gateway-account switching](https://github.com/openclaw/openclaw/pull/136687), and [automation grouping and tags](https://github.com/openclaw/openclaw/pull/134434).
+### Open pull requests · checked September 25, 2026
+
+**OpenClaw**
+
+- [Skip redundant chat snapshot sanitization](https://github.com/openclaw/openclaw/pull/153214)
+- [Prevent stale native dashboard builds](https://github.com/openclaw/openclaw/pull/148435)
+- [Add bounded PDF previews to chat attachments](https://github.com/openclaw/openclaw/pull/148399)
+- [Release compaction writer before continuation](https://github.com/openclaw/openclaw/pull/144511)
+- [Render LaTeX in Control UI Markdown](https://github.com/openclaw/openclaw/pull/144324)
+- [Allow dashboard child sessions to be pinned](https://github.com/openclaw/openclaw/pull/143719)
+- [Split deleted-archive retention](https://github.com/openclaw/openclaw/pull/140793)
+- [Add saved gateway-account switching](https://github.com/openclaw/openclaw/pull/136687)
+- [Add grouping and tags to automations](https://github.com/openclaw/openclaw/pull/134434)
+
+**Other projects**
+
+- [RFC 0027: Simplified Technical English for OpenClaw documentation](https://github.com/openclaw/rfcs/pull/53) · draft
+- [Restore npm ci reproducibility](https://github.com/JoshuaDowdCS/chapman-ieee/pull/2) · draft
+- [Improve keyboard accessibility](https://github.com/JoshuaDowdCS/chapman-ieee/pull/1) · draft
+
+[Browse all open pull requests](https://github.com/pulls?q=is%3Apr%20author%3Ajjjhenriksen%20is%3Aopen).
 
 ### [ClickClack](https://github.com/openclaw/clickclack)
 
@@ -81,21 +101,21 @@ Current open work includes [release-safe compaction cleanup](https://github.com/
 
 - Fixed [delegated expansion reply collection](https://github.com/Martian-Engineering/lossless-claw/pull/1061) for current OpenClaw beta releases using the supported session-message API, with regression coverage.
 
+### Recent merged PR highlights · checked September 25, 2026
+
+- **OpenClaw:** [Coalesce progress-card refreshes](https://github.com/openclaw/openclaw/pull/153213), [guard generated-context sanitization](https://github.com/openclaw/openclaw/pull/153211), and [prevent Control UI hangs on malformed progress content](https://github.com/openclaw/openclaw/pull/147528).
+- **OpenClaw Pet:** [Show source health in pet status](https://github.com/jjjhenriksen/openclaw-pet/pull/25), [improve overlay accessibility](https://github.com/jjjhenriksen/openclaw-pet/pull/24), and [port the canonical Lobsterdex renderer](https://github.com/jjjhenriksen/openclaw-pet/pull/20).
+- **Hollow Square:** [Defer the notation renderer and story artwork](https://github.com/jjjhenriksen/hollow-square/pull/8) and [keep narrow screens readable](https://github.com/jjjhenriksen/hollow-square/pull/7).
+- **2D Hartree–Fock Lab:** [Improve SCF preconditioning and orbital eigenstates](https://github.com/jjjhenriksen/hf2d-lab/pull/43).
+
+[Browse all merged pull requests](https://github.com/pulls?q=is%3Apr%20author%3Ajjjhenriksen%20is%3Amerged).
+
 ## 🔬 Focus areas and tools
 
 - **Human-centered AI:** HCI, accessibility, evidence-aware interfaces, and AI for technical learning
 - **Agent systems:** Observable workflows, bounded data flows, privacy boundaries, and failure behavior
 - **Formal and scientific computing:** Lean 4, mechanized reasoning, numerical methods, and browser-based research tools
 - **Stack:** TypeScript, React, Next.js, Node.js, PostgreSQL, Playwright, Swift, C#/.NET, Python, Rust/WASM, OpenAI and Anthropic APIs
-
-## 🌱 Currently
-
-- Extending the Shape-Note Atlas and its source-grounded review workflow
-- Developing OpenClaw Pet as a privacy-preserving activity interface
-- Building 2D Hartree–Fock Lab as a browser-based numerical methods workbench
-- Creating reusable skills for agent workflows, theorem proving, and evidence-first knowledge work
-- Studying Data Science at Chapman University and participating in Break Through Tech AI
-- Building and contributing to open-source AI tooling
 
 ## 📫 Connect with me
 
