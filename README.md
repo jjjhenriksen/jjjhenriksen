@@ -1,26 +1,125 @@
 # Hi, I’m Jacqueline 👋
 
-Data Science ’28 at Chapman University · Break Through Tech AI Fellow · Community Staff at [OpenClaw](https://github.com/openclaw)
+**Data Science ’28 @ Chapman University · Break Through Tech AI Fellow · Community Staff @ [OpenClaw](https://github.com/openclaw)**
 
-I build AI tools, research interfaces, and small creative projects. I care about accessibility and making complex systems easier to understand and use.
+I build human-centered AI products, developer tools, and research interfaces that make complex systems easier to understand, direct, and trust.
 
-## Selected projects
+My work sits at the intersection of HCI, accessibility, developer experience, reliable agent systems, formal methods, and scientific computing. I care about making evidence, system state, privacy boundaries, and failure behavior visible to the people using AI.
 
-- **[Interactive Proof](https://github.com/jjjhenriksen/interactive-proof)** — A reading companion for math papers, Lean proofs, and AI explanations. [Demo](https://interactive-proof.jjjhenriksen.chatgpt.site)
-- **[OpenClaw Pet](https://github.com/jjjhenriksen/openclaw-pet)** — Animated desktop pets that show agent activity on macOS and Windows.
-- **[The Shape-Note Atlas](https://github.com/jjjhenriksen/shapenote-atlas)** — A Sacred Harp reference with tune records, scores, and browser playback. [Explore](https://shapenote.jacquelinehenriksen.com/atlas/)
-- **[Hollow Square](https://github.com/jjjhenriksen/hollow-square)** — A browser horror game about Sacred Harp, song, and memory. [Play](https://shapenote.jacquelinehenriksen.com/hollow-square/)
-- **[Artemis Lost](https://github.com/jjjhenriksen/Artemis-Lost)** — A sci-fi mission simulator with human players and AI crew. PantherHacks 2026 Entertainment Track Runner-Up.
+## 🚀 Featured work
 
-More: [2D Hartree–Fock Lab](https://github.com/jjjhenriksen/hf2d-lab) · [Sacred Harp fine-tune](https://github.com/jjjhenriksen/sacred-harp-finetune) · [Lean 4 Codex Skills](https://github.com/jjjhenriksen/lean4-codex-skills)
+### [Interactive Proof](https://github.com/jjjhenriksen/interactive-proof)
 
-## Open source
+An educational reading companion for mathematical papers, Lean formalizations, and grounded AI explanations. Readers can select a sentence, equation, or Lean declaration and ask for help without losing their place in the proof.
 
-I contribute to [OpenClaw](https://github.com/openclaw/openclaw), [ClickClack](https://github.com/openclaw/clickclack), and [Lossless Claw](https://github.com/Martian-Engineering/lossless-claw), with a focus on usability, accessibility, and reliable agent workflows.
+The interface keeps four kinds of evidence distinct: what the paper states, what Lean formally verifies, prerequisite knowledge, and what the AI generates.
 
-[View merged contributions](https://github.com/pulls?q=is%3Apr%20author%3Ajjjhenriksen%20is%3Amerged) · [Open pull requests](https://github.com/pulls?q=is%3Apr%20author%3Ajjjhenriksen%20is%3Aopen)
+**Built with:** TypeScript, Next.js, Lean 4, PDF.js, Playwright, and the OpenAI Responses API  
+[Try the live demo](https://interactive-proof.jjjhenriksen.chatgpt.site)
 
-## Connect
+### [OpenClaw Pet](https://github.com/jjjhenriksen/openclaw-pet)
 
-[Website](https://jacquelinehenriksen.com/) · [LinkedIn](https://www.linkedin.com/in/jacqueline-henriksen/) · [X](https://x.com/jjjhenriksen) · [Email](mailto:jjjhenriksen@gmail.com)
+A cross-platform OpenClaw plugin that represents local and remote agent activity as animated desktop pets. Native overlays on macOS and Windows show allowlisted activity state while keeping prompts, credentials, tool arguments, model output, and internal errors off the display bridge.
 
+**Built with:** TypeScript, Swift, C#/.NET, WebView2, and OpenClaw
+
+### [The Shape-Note Atlas](https://github.com/jjjhenriksen/shapenote-atlas)
+
+A source-faithful Sacred Harp lookup workspace spanning eleven books and thousands of tune records. It combines corpus metadata, edition-specific source evidence, MusicXML scores, browser playback, transposition, and human-review queues without fabricating missing notation.
+
+[Open the Atlas](https://shapenote.jacquelinehenriksen.com/atlas/)
+
+### [Hollow Square](https://github.com/jjjhenriksen/hollow-square)
+
+A small browser-playable Sacred Harp horror game about song, memory, and the class that remains. It is a dependency-light static project with story, shape-note practice, short tune openings, optional four-part harmony, and original artwork.
+
+[Play Hollow Square](https://shapenote.jacquelinehenriksen.com/hollow-square/)
+
+### [Artemis Lost](https://github.com/jjjhenriksen/Artemis-Lost)
+
+🏆 **Entertainment Track Runner-Up — [PantherHacks 2026](https://pantherhacks.dev/winners)**
+
+A full-stack science-fiction mission simulator where human players and AI-controlled crew coordinate under pressure. An AI mission director responds to player decisions while the application maintains structured world state, crew dynamics, tactical handoffs, mission mechanics, and persistent saves.
+
+**Built with:** React, Vite, Node.js, Express, PostgreSQL, the OpenAI Responses API, and the Anthropic Messages API
+
+## 🧩 Research, tools, and supporting projects
+
+- **[2D Hartree–Fock Lab](https://github.com/jjjhenriksen/hf2d-lab):** A serverless, browser-based numerical methods workbench for real-space molecular dynamics, with visible convergence and precision behavior. [Open the lab](https://jacquelinehenriksen.com/hf2d-lab/)
+- **[Sacred Harp Llama Fine-tune](https://github.com/jjjhenriksen/sacred-harp-finetune):** A reproducible Apple Silicon LoRA training and evaluation pipeline for a small Sacred Harp reference model, paired with grounded retrieval and a public presentation. [View the presentation](https://jjjhenriksen.github.io/sacred-harp-finetune/)
+- **[Shape-Note site](https://github.com/jjjhenriksen/shapenote-site):** A publication hub connecting the Atlas, Local AI work, and Hollow Square.
+- **[Lean 4 Codex Skills](https://github.com/jjjhenriksen/lean4-codex-skills):** Agent skills for theorem proving, autoformalization, proof repair, review, build-checked checkpoints, and toolchain diagnosis.
+- **[ClawHub Skill Pack](https://github.com/jjjhenriksen/agent-skills):** Published OpenClaw skills for reflection weaving, strategic reading, evidence-first review, signal capture, and citation provenance.
+- **[Chapman Connect](https://github.com/jjjhenriksen/HCI-Chapman-Connect):** A working HCI prototype for connecting Chapman students with campus resources.
+
+## 🦞 Open-source contributions
+
+As an independent open-source contributor, I focus on developer experience, safer content workflows, reliable agent systems, and interfaces that adapt to how people actually work.
+
+### [OpenClaw](https://github.com/openclaw/openclaw)
+
+Selected merged work includes:
+
+- [Skill Workshop review-index repair](https://github.com/openclaw/openclaw/pull/142522), keeping durable review state consistent after updates
+- [Agent automation editing from Settings](https://github.com/openclaw/openclaw/pull/139782)
+- [Primary-user identity in the multi-agent profile hero](https://github.com/openclaw/openclaw/pull/136736)
+- [Native compaction serialization](https://github.com/openclaw/openclaw/pull/135441) and [restored subagent requester-settle recovery](https://github.com/openclaw/openclaw/pull/133057)
+- [Embedding-only managed-server support](https://github.com/openclaw/openclaw/pull/125383), [explicit system-agent configuration](https://github.com/openclaw/openclaw/pull/125377), and [inherited skill-allowlist visibility](https://github.com/openclaw/openclaw/pull/124429)
+- [Queued-message editing](https://github.com/openclaw/openclaw/pull/124298), [catalog-timeout classification](https://github.com/openclaw/openclaw/pull/124288), and [agent-owned multi-agent CLI operations](https://github.com/openclaw/openclaw/pull/123871)
+- [Bot-to-bot inbound dispatch](https://github.com/openclaw/openclaw/pull/119278), [restart recovery for deleted or unconfigured agent stores](https://github.com/openclaw/openclaw/pull/118023), [native ClickClack progress](https://github.com/openclaw/openclaw/pull/116683), [cron-reason preservation](https://github.com/openclaw/openclaw/pull/116566), [mention gating](https://github.com/openclaw/openclaw/pull/115484), and [ClickClack media delivery](https://github.com/openclaw/openclaw/pull/105775)
+
+### Open pull requests · checked September 25, 2026
+
+**OpenClaw**
+
+- [Skip redundant chat snapshot sanitization](https://github.com/openclaw/openclaw/pull/153214)
+- [Prevent stale native dashboard builds](https://github.com/openclaw/openclaw/pull/148435)
+- [Add bounded PDF previews to chat attachments](https://github.com/openclaw/openclaw/pull/148399)
+- [Release compaction writer before continuation](https://github.com/openclaw/openclaw/pull/144511)
+- [Render LaTeX in Control UI Markdown](https://github.com/openclaw/openclaw/pull/144324)
+- [Allow dashboard child sessions to be pinned](https://github.com/openclaw/openclaw/pull/143719)
+- [Split deleted-archive retention](https://github.com/openclaw/openclaw/pull/140793)
+- [Add saved gateway-account switching](https://github.com/openclaw/openclaw/pull/136687)
+- [Add grouping and tags to automations](https://github.com/openclaw/openclaw/pull/134434)
+
+**Other projects**
+
+- [RFC 0027: Simplified Technical English for OpenClaw documentation](https://github.com/openclaw/rfcs/pull/53) · draft
+- [Restore npm ci reproducibility](https://github.com/JoshuaDowdCS/chapman-ieee/pull/2) · draft
+- [Improve keyboard accessibility](https://github.com/JoshuaDowdCS/chapman-ieee/pull/1) · draft
+
+[Browse all open pull requests](https://github.com/pulls?q=is%3Apr%20author%3Ajjjhenriksen%20is%3Aopen).
+
+### [ClickClack](https://github.com/openclaw/clickclack)
+
+- Made uploaded work usable without leaving the conversation through [safe previews for code, documents, PDFs, and HTML](https://github.com/openclaw/clickclack/pull/49), followed by [bounded spreadsheet and slide-deck previews](https://github.com/openclaw/clickclack/pull/55).
+- Improved navigation and accessibility with [collapsible sidebar sections](https://github.com/openclaw/clickclack/pull/50), [draggable channel ordering](https://github.com/openclaw/clickclack/pull/51), and [independent message alignment controls](https://github.com/openclaw/clickclack/pull/60).
+- Added [matched search context](https://github.com/openclaw/clickclack/pull/81), [sidebar search results](https://github.com/openclaw/clickclack/pull/83), [responsive Markdown tables](https://github.com/openclaw/clickclack/pull/93), [message reactions](https://github.com/openclaw/clickclack/pull/98), and [message editing](https://github.com/openclaw/clickclack/pull/99).
+- Added [channel mention notifications](https://github.com/openclaw/clickclack/pull/116), [pinned messages](https://github.com/openclaw/clickclack/pull/117), [resolved mention highlighting](https://github.com/openclaw/clickclack/pull/137), and [named responding-agent status](https://github.com/openclaw/clickclack/pull/138).
+
+### [Lossless Claw](https://github.com/Martian-Engineering/lossless-claw)
+
+- Fixed [delegated expansion reply collection](https://github.com/Martian-Engineering/lossless-claw/pull/1061) for current OpenClaw beta releases using the supported session-message API, with regression coverage.
+
+### Recent merged PR highlights · checked September 25, 2026
+
+- **OpenClaw:** [Coalesce progress-card refreshes](https://github.com/openclaw/openclaw/pull/153213), [guard generated-context sanitization](https://github.com/openclaw/openclaw/pull/153211), and [prevent Control UI hangs on malformed progress content](https://github.com/openclaw/openclaw/pull/147528).
+- **OpenClaw Pet:** [Show source health in pet status](https://github.com/jjjhenriksen/openclaw-pet/pull/25), [improve overlay accessibility](https://github.com/jjjhenriksen/openclaw-pet/pull/24), and [port the canonical Lobsterdex renderer](https://github.com/jjjhenriksen/openclaw-pet/pull/20).
+- **Hollow Square:** [Defer the notation renderer and story artwork](https://github.com/jjjhenriksen/hollow-square/pull/8) and [keep narrow screens readable](https://github.com/jjjhenriksen/hollow-square/pull/7).
+- **2D Hartree–Fock Lab:** [Improve SCF preconditioning and orbital eigenstates](https://github.com/jjjhenriksen/hf2d-lab/pull/43).
+
+[Browse all merged pull requests](https://github.com/pulls?q=is%3Apr%20author%3Ajjjhenriksen%20is%3Amerged).
+
+## 🔬 Focus areas and tools
+
+- **Human-centered AI:** HCI, accessibility, evidence-aware interfaces, and AI for technical learning
+- **Agent systems:** Observable workflows, bounded data flows, privacy boundaries, and failure behavior
+- **Formal and scientific computing:** Lean 4, mechanized reasoning, numerical methods, and browser-based research tools
+- **Stack:** TypeScript, React, Next.js, Node.js, PostgreSQL, Playwright, Swift, C#/.NET, Python, Rust/WASM, OpenAI and Anthropic APIs
+
+## 📫 Connect with me
+
+- [Website](https://jacquelinehenriksen.com/)
+- [LinkedIn](https://www.linkedin.com/in/jacqueline-henriksen/)
+- [X](https://x.com/jjjhenriksen)
+- [jjjhenriksen@gmail.com](mailto:jjjhenriksen@gmail.com)
