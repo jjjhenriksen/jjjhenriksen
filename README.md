@@ -2,9 +2,21 @@
 
 **Data Science ’28 @ Chapman University · Break Through Tech AI Fellow · Community Staff @ [OpenClaw](https://github.com/openclaw)**
 
-I build human-centered AI products, developer tools, and research interfaces that make complex systems easier to understand, direct, and trust.
+I build reliable AI tools and accessible software, with interests in inference systems, retrieval, and formal verification.
 
 My work sits at the intersection of HCI, accessibility, developer experience, reliable agent systems, formal methods, and scientific computing. I care about making evidence, system state, privacy boundaries, and failure behavior visible to the people using AI.
+
+## Break Through Tech AI Studio · KPMG-sponsored project
+
+I’m a Break Through Tech AI Studio Fellow working with a team on an [AI Research Intelligence Agent for Business Insight Translation](https://github.com/Break-Through-Tech/KPMG-1F-ai-research-intelligence-agent-for-business-insight-translation). The prototype ingests research papers and retrieves passages with source citations; draft generation and evaluation are separate workstreams.
+
+My contributions include citation metadata and index reconciliation, a retrieval API with regression tests, and a local SQLite brief library with immutable versions and review records.
+
+**AI Studio tools:** Python · PyMuPDF · SentenceTransformers · Chroma · SQLite · Git · automated testing.
+
+[![AI Studio project documentation](https://img.shields.io/badge/AI_Studio-project_documentation-blue)](https://github.com/Break-Through-Tech/KPMG-1F-ai-research-intelligence-agent-for-business-insight-translation#readme)
+
+**Certification:** Machine Learning Foundations Certificate — Cornell University, August 2026.
 
 ## 🚀 Featured work
 
@@ -29,12 +41,6 @@ A source-faithful Sacred Harp lookup workspace spanning eleven books and thousan
 
 [Open the Atlas](https://shapenote.jacquelinehenriksen.com/atlas/)
 
-### [Hollow Square](https://github.com/jjjhenriksen/hollow-square)
-
-A small browser-playable Sacred Harp horror game about song, memory, and the class that remains. It is a dependency-light static project with story, shape-note practice, short tune openings, optional four-part harmony, and original artwork.
-
-[Play Hollow Square](https://shapenote.jacquelinehenriksen.com/hollow-square/)
-
 ### [Artemis Lost](https://github.com/jjjhenriksen/Artemis-Lost)
 
 🏆 **Entertainment Track Runner-Up — [PantherHacks 2026](https://pantherhacks.dev/winners)**
@@ -43,14 +49,11 @@ A full-stack science-fiction mission simulator where human players and AI-contro
 
 **Built with:** React, Vite, Node.js, Express, PostgreSQL, the OpenAI Responses API, and the Anthropic Messages API
 
-## 🧩 Research, tools, and supporting projects
+## Research and tools
 
-- **[2D Hartree–Fock Lab](https://github.com/jjjhenriksen/hf2d-lab):** A serverless, browser-based numerical methods workbench for real-space molecular dynamics, with visible convergence and precision behavior. [Open the lab](https://jacquelinehenriksen.com/hf2d-lab/)
-- **[Sacred Harp Llama Fine-tune](https://github.com/jjjhenriksen/sacred-harp-finetune):** A reproducible Apple Silicon LoRA training and evaluation pipeline for a small Sacred Harp reference model, paired with grounded retrieval and a public presentation. [View the presentation](https://jjjhenriksen.github.io/sacred-harp-finetune/)
-- **[Shape-Note site](https://github.com/jjjhenriksen/shapenote-site):** A publication hub connecting the Atlas, Local AI work, and Hollow Square.
-- **[Lean 4 Codex Skills](https://github.com/jjjhenriksen/lean4-codex-skills):** Agent skills for theorem proving, autoformalization, proof repair, review, build-checked checkpoints, and toolchain diagnosis.
-- **[ClawHub Skill Pack](https://github.com/jjjhenriksen/agent-skills):** Published OpenClaw skills for reflection weaving, strategic reading, evidence-first review, signal capture, and citation provenance.
-- **[Chapman Connect](https://github.com/jjjhenriksen/HCI-Chapman-Connect):** A working HCI prototype for connecting Chapman students with campus resources.
+- [MLX Decisions](https://github.com/jjjhenriksen/mlx-decisions) — Apple Silicon decision inference with probability-parity checks and latency experiments.
+- [Sacred Harp fine-tuning](https://github.com/jjjhenriksen/sacred-harp-finetune) — MLX-LM/LoRA training, evaluation, and grounded retrieval. [Presentation](https://jjjhenriksen.github.io/sacred-harp-finetune/)
+- [2D Hartree–Fock Lab](https://github.com/jjjhenriksen/hf2d-lab) — browser numerical methods with visible convergence and precision behavior in model 2D physics.
 
 ## 🦞 Open-source contributions
 
